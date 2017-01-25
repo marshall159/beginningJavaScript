@@ -5,12 +5,11 @@
 </head>
 <body>
 	<script>
-		function times(num) {
-			for (var i = 1; i <= 12; i++) {
-				document.write(num + " * " + i + " = " + num * i + "<br>");
-			}
+		var timesTable = 12;
+
+		for (var timesBy = 1; timesBy < 13; timesBy++) {
+			document.write(timesTable + " * " + timesBy + " = " + timesBy * timesTable + "<br />");
 		}
-		times(12);
 
 	</script>
 </body>			
