@@ -5,22 +5,14 @@
 </head>
 <body>
 	<script>
-	function times(timesTable, startMul, endMul) {
-		for(var i = startMul; i <= endMul; i++) {
-			var result = i * timesTable;
-			document.write(timesTable + ' * ' + i + ' = ' + result + '<br>')
+	function writeTimesTable(timesTable, timesByStart, timesByEnd) {
+		for(; timesByStart <= timesByEnd; timesByStart++) {
+			document.write(timesTable + ' * ' + timesByStart + ' = ' + timesByStart * timesTable + '<br>')
 
 		}
 	}
 
-	times(4, 4, 9);
-
-		
-	
-
-
-		
-
+	writeTimesTable(4, 4, 9);
 
 	</script>
 </body>
