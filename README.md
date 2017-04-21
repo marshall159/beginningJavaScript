@@ -1,3 +1,3 @@
-# beginningJavascript
+# beginningJavaScript
 
-Example exercises from Beginning JavaScript - Jeremy McPeak and Paul Wilton
+Problems and worked solutions from Beginning JavaScript - Jeremy McPeak and Paul Wilton
